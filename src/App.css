@@ -1,0 +1,121 @@
+.App {
+  text-align: center;
+}
+
+.banner{
+  max-width: 100%;
+    max-height: 100%;
+  margin-top: 0.5rem;
+}
+
+.pmg-btn{
+  margin-left: 30px;
+  margin-top: 30px;
+  width: 20rem;
+  display: inline-table;
+  padding: 8px 20px;
+  border-radius: 4px;
+  border: 1px;
+  font-size: 18px;
+  background: #ff3f3f;
+  color: white;
+ 
+}
+.pmg-btn-selected{
+  margin-left: 30px;
+  margin-top: 30px;
+  width: 20rem;
+  display: inline-table;
+  padding: 8px 20px;
+  border-radius: 4px;
+  border: 1px;
+  font-size: 18px;
+  background: #05799c;
+  color: white;
+  
+ 
+}
+
+.pmg-btn:hover{
+  padding: 12px 26px;
+border-radius: 4px;
+font-size: 20px;
+background: #05799c;
+color: white;
+transition: all 0.3s ease-out;
+cursor: pointer;
+}
+
+hr {
+  display: block;
+  height: 1px;
+  border: 0;
+  border-top: 1px solid #ccc;
+  margin: 1em 0;
+  padding: 0;
+}
+.text-acinfo{
+  text-align: left;
+  margin-left: 30px;
+}
+
+.text-loginhere{
+  text-align: end;
+  margin-left: 55rem;
+  display: inline;
+}
+
+.dashboard-stats{
+  padding: 50px;
+  margin: 20px;
+  box-shadow: rgba(50, 50, 93, 0.14902) 0px 1px 3px,
+    rgba(0, 0, 0, 0.0196078) 0px 1px 0px;
+  border: 0;
+  outline: 0;
+  border-radius: 4px;
+  background: white;
+}
+.display-stats{
+  padding: 50px;
+  margin: 2rem 20px;
+  box-shadow: rgba(50, 50, 93, 0.14902) 0px 1px 3px,
+    rgba(0, 0, 0, 0.0196078) 0px 1px 0px;
+  border: 0;
+  outline: 0;
+  border-radius: 4px;
+  background: white;
+}
+h2,p,h3,h1,b{
+  font-family: 'Trebuchet MS', sans-serif;
+}
+
+.dashboard-stats2{
+  padding: 50px;
+  width: 20rem;
+  margin: 2rem;
+  display: inline-block;
+  box-shadow: rgba(50, 50, 93, 0.14902) 0px 1px 3px,
+    rgba(0, 0, 0, 0.0196078) 0px 1px 0px;
+  border: 0;
+  outline: 0;
+  border-radius: 4px;
+  background: white;
+}
+.circle {
+  width: 60px;
+  height: 60px;
+  line-height: 60px;
+  border-radius: 50%;
+  color: black;
+  text-align: center;
+  background: lightgray
+}
+
+
+@media screen and (max-width: 960px) {
+  .text-loginhere{
+    text-align: end;
+    margin-left: 20px;
+    display: inline;
+  }
+}

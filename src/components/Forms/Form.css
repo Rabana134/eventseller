@@ -1,0 +1,201 @@
+.form-content-right{
+    display: table;
+  margin: 0 auto;
+}
+.form-content-right-s{
+  display: inline-table;
+margin: 0 10rem;
+}
+.login-form{
+  display: table;
+  position: absolute;
+  left: 50%;
+  top: 50%;
+  -webkit-transform: translate(-50%, -50%);
+  transform: translate(-50%, -50%);
+  background: white;
+  padding-left: 6rem;
+  padding-right: 6rem;
+  padding-bottom: 4rem;
+  padding-top: 4rem;
+}
+
+.sett-form{
+  display: table;
+  margin: 0 auto;
+  background: white;
+  padding-left: 6rem;
+  padding-right: 6rem;
+  padding-bottom: 4rem;
+  padding-top: 5rem;
+  
+}
+.form-input {
+    padding-left: 10px;
+    outline: none;
+    margin: 10px 0 20px 0;
+    display: inline;
+    box-shadow: rgba(50, 50, 93, 0.14902) 0px 1px 3px,
+    rgba(0, 0, 0, 0.0196078) 0px 1px 0px;
+  border: 0;
+  outline: 0;
+  border-radius: 4px;
+  background: white;
+    height: 40px;
+    width: 100%;
+  }
+  .disc-form-input{
+    padding-left: 10px;
+    outline: none;
+    display: inline-table;
+    box-shadow: rgba(50, 50, 93, 0.14902) 0px 1px 3px,
+    rgba(0, 0, 0, 0.0196078) 0px 1px 0px;
+  border: 0;
+  outline: 0;
+  border-radius: 4px;
+  background: white;
+    height: 40px;
+    width: 100px;
+  }
+  .disc-input-btn{
+    margin: 2rem;
+    width: 100px;
+    padding: 8px 20px;
+    border-radius: 4px;
+    border: 1px;
+    font-size: 18px;
+    background: #d4af37;
+    color: white;
+  }
+  .disc-input-btn:hover{
+    padding: 12px 20px;
+    border-radius: 4px;
+    font-size: 18px;
+    background: #d4af37;
+    color: white;
+    transition: all 0.3s ease-out;
+    cursor: pointer;
+   
+  }
+  .settings-input-btn{
+    margin: 2rem;
+    width: 200px;
+    padding: 8px 20px;
+    border-radius: 4px;
+    border: 1px;
+    font-size: 18px;
+    background: #d4af37;
+    color: white;
+  }
+  .settings-input-btn:hover{
+    padding: 12px 20px;
+    border-radius: 4px;
+    font-size: 18px;
+    background: #d4af37;
+    color: white;
+    transition: all 0.3s ease-out;
+    cursor: pointer;
+   
+  }
+  .form-label {
+    margin-bottom: 6px;
+    margin-right: 10px;
+    color: black;
+  }
+  .form-input-btn{
+      margin: 2rem;
+    width: 20rem;
+    display: block;
+    padding: 8px 20px;
+    border-radius: 4px;
+    border: 1px;
+    font-size: 18px;
+    background: #d4af37;
+    color: white;
+   
+  }
+  .report-btn{
+    margin:2rem 0;
+  width: 100%;
+  display: block;
+  padding: 8px 20px;
+  border-radius: 4px;
+  border: 1px;
+  font-size: 18px;
+  background: white;
+  color: black;
+  box-shadow: rgba(50, 50, 93, 0.14902) 0px 1px 3px,
+  rgba(0, 0, 0, 0.0196078) 0px 1px 0px;
+border: 0;
+outline: 0;
+border-radius: 4px;
+ 
+}
+  .form-inputlogin-btn{
+  padding: 8px 20px;
+  border-radius: 4px;
+  border: 1px;
+  font-size: 18px;
+  background: #d4af37;
+  color: white;
+ 
+}
+.form-inputlogin-btn:hover{
+  padding: 12px 20px;
+  border-radius: 4px;
+  font-size: 18px;
+  background: #d4af37;
+  color: white;
+  transition: all 0.3s ease-out;
+  cursor: pointer;
+ 
+}
+  
+  .form-input-btn:hover{
+    padding: 12px 26px;
+  border-radius: 4px;
+  font-size: 20px;
+  background: #d4af37;
+  color: white;
+  transition: all 0.3s ease-out;
+  cursor: pointer;
+  }
+  .export-btn-event{
+    padding: 10px 10px;
+  border-radius: 4px;
+  font-size: 15px;
+  background: #d4af37;
+  color: white;
+  transition: all 0.3s ease-out;
+  cursor: pointer;
+  }
+  .export-btn-event:hover{
+    padding: 15px 15px;
+  border-radius: 4px;
+  font-size: 15px;
+  background: #d4af37;
+  color: white;
+  transition: all 0.3s ease-out;
+  cursor: pointer;
+  }
+  .elementId{
+    height: 200px;
+    margin-left: 5rem;
+    margin-right: 5rem;
+    overflow-y: scroll;
+}
+
+.StripeElement {
+  display: block;
+  margin: 10px 0 20px 0;
+  width: 20rem;
+  padding: 10px 14px;
+  font-size: 1em;
+  font-family: "Source Code Pro", monospace;
+  box-shadow: rgba(50, 50, 93, 0.14902) 0px 1px 3px,
+    rgba(0, 0, 0, 0.0196078) 0px 1px 0px;
+  border: 0;
+  outline: 0;
+  border-radius: 4px;
+  background: white;
+}

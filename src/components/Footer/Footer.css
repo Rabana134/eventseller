@@ -1,0 +1,49 @@
+.footer-background{
+    background: #4B0083;
+}
+.foot-title{
+    display: inline-table;
+    color: white;
+    margin-left: 2rem;
+    margin-top: 30px;
+}
+.footer-list{
+    color: #DEE1F8;
+    padding-left: 8px;
+}
+ i {
+    color: #CCAE2C;
+    font-size: 12px;
+}
+.nobull {
+    list-style-type: none;
+   }
+
+   .fa-map-marker-alt{
+    content: "\f3c5";
+    color: white;
+    font-size: 1rem;
+}
+.fa-phone-alt{
+    content: "\f3c5";
+    color: white;
+    font-size: 1rem;
+}
+.fa-envelope{
+    content: "\f3c5";
+    color: white;
+    font-size: 1rem;
+}
+
+.social-media{
+    display: inline-table;
+    margin: 0.5rem;
+}
+.footer-hr{
+    display: block;
+  height: 1px;
+  border: 0;
+  border-top: 1px solid #836c05;
+  margin: 1px 0;
+  padding: 0;
+}
